@@ -1,0 +1,145 @@
+text,clickbait,fomo,fud,violence,attack,profanity,split,url
+שערוריה פוליטית! קטסטרופה מתרחשת ברגעים אלה. אל תפספסו את העדכון הדרמטי.,high,high,high,low,low,low,dev,
+"הזדמנות שלא תחזור: רק היום, לזמן מוגבל, בלעדי לנרשמים. אל תפספסו!",low,high,low,low,low,low,dev,
+"משבר חמור, סכנה מיידית, איום קיומי והשלכות הרסניות לפי מומחים.",low,low,high,low,low,low,dev,
+נחשף: הסוד המדהים והבלעדי מאחורי התעלומה שנעלמה.,high,low,low,low,low,low,dev,
+הממשלה פרסמה דוח תקציב שנתי עם נתונים וגרפים. הדיון ימשיך בשבוע הבא.,low,low,low,low,low,low,dev,
+דיווח מזג אוויר: מחר יהיה מעונן חלקית עם סיכוי לגשם בצפון.,low,low,low,low,low,low,dev,
+"בלעדי! אל תפספסו את ההזדמנות החד פעמית, נדיר, רק היום!",low,high,low,low,low,low,dev,
+"אזהרה: סכנה בריאותית, פחד בקרב הציבור, אי ודאות סביב הנגיף.",low,low,high,low,low,low,dev,
+כתבה ניטרלית על היסטוריה של האמנות המודרנית במוזיאון תל אביב.,low,low,low,low,low,low,dev,
+"תדהמה! נחשף הסוד הדרמטי — כל הפרטים בפנים, אסור לפספס.",high,moderate,low,low,low,low,dev,
+הסוד שמסתירים מכם: מה שאף אחד לא רוצה שתדעו,high,low,low,low,low,low,dev,
+השיטה שתגלה את האמת על הכסף,high,low,low,low,low,low,dev,
+מה שלא סיפרו לך על התקדמות הבריאות שלך,high,low,low,low,low,low,dev,
+טבח קטסטרופה באזור מגורש: עשרות אנשים נרצחו ועוד רבים פצועים קשה,low,low,high,high,low,low,dev,
+מטהר ירה במפקדה ונהרגו שני שוטרים,low,low,low,high,low,low,dev,
+רוצח בן 17 נורה באזור מסחר ורצח שני בני אדם,low,low,low,high,low,low,dev,
+פיגוע טרור בתחנה המרכזית: פצועים רבים וחשודים במעצר,low,low,low,high,low,low,dev,
+"אלימות קשה במדינה: טבח, חטיפה ואלימות נגד מפגינים",low,low,low,high,low,low,dev,
+הכנס הבינתחומי יתקיים בחודש הבא בירושלים ויציג מחקרים חדשים,low,low,low,low,low,low,dev,
+"מופע המוזיקה יתקיים באולם ראשונה בערב חמישי, והכרטיסים בהשקה מוקדמת",low,low,low,low,low,low,dev,
+השר מתנהג כמקבלן שאין לו דעת מה קורה במדינה,low,low,low,low,moderate,low,dev,
+"הוא בור מוחלט, וכל מי שמאמין לו קיפלה",low,low,low,low,moderate,low,dev,
+"היא פיגל ומקבלן, ועדיין מדברת בעיתיד",low,low,low,low,high,low,dev,
+הם בגדים ורמאים שהתעמלו בכספי המדינה,low,low,low,low,moderate,low,dev,
+השרה שוטה שאינו מבין דבר במדינה,low,low,low,low,moderate,low,dev,
+הפרשן זיין בשידור והצופים זעזעו,low,low,low,low,low,moderate,dev,
+מנאק אותי כל היום בלי סיבה,low,low,low,low,low,moderate,dev,
+הם קיללו וזיינו את כל מי שהיה שם,low,low,low,low,low,moderate,dev,
+מניות בורס תל אביב עלו בשלושה אחוזים,low,low,low,low,low,low,dev,
+הבורח נמצא במרכז הארץ לאחר חופשה ארוכה,low,low,low,low,low,low,dev,
+לא תאמינו: מה שקראו עליו כל כך הרבה,high,low,low,low,low,low,dev,
+הסיבה האמיתית מאחורי ההיפוך הגדול,high,low,low,low,low,low,dev,
+כך תירדו מהסוד בתוך דקה,high,low,low,low,low,low,dev,
+מה שאף אחד לא רוצה שתדעו על הכסף,high,low,low,low,low,low,dev,
+זה מה שקרה אחרי ההודעה הרשמית,high,low,low,low,low,low,dev,
+חברת האופנה החליטה להפסיק את הייצור של הדגם האהוב,low,low,low,low,low,low,dev,
+מוזיאון התלמיד יפתח תערוכה חדשה על אמנות ישראל,low,low,low,low,low,low,dev,
+משבר כלכלי עומד בפתח: המשק מתכריך לצמיחה שלילית,low,low,high,low,low,low,dev,
+"אזהרה: סכנה בריאותית חמורה לציבור, אנשים נדרשים להימנע מהנסיעות",low,low,high,low,low,low,dev,
+רק היום: מחיר המנויים הופחת במחצית עד לסוף השבוע,low,high,low,low,low,low,dev,
+ההזדמנות שלא תחזור: כרטיסים להופעה של השבוע,low,high,low,low,low,low,dev,
+מוזיאון התלמיד יפתח תערוכה חדשה בחודש הבא,low,low,low,low,low,low,dev,
+הכנס הבינתחומי יתקיים בחודש הבא בירושלים,low,low,low,low,low,low,dev,
+פיגוע טרור בשוק: אישה נרצחה ושניים נפצעו,low,low,low,high,low,low,dev,
+חייל נורה בגבול; שוטה נהרג ורבים נפצעו,low,low,low,high,low,low,dev,
+השר תקף את המחאה: אלה אנשים טיפשים שאין להם עבודה,low,low,low,low,moderate,low,dev,
+המכריד הודיע: השר הוא בור ואין לו תיקון,low,low,low,low,moderate,low,dev,
+"הפרשן קילל בשידור: פאק, אני לא יכול יותר",low,low,low,low,low,moderate,dev,
+האייגר זיין את האירוע במועדון,low,low,low,low,low,moderate,dev,
+נציג המחנה הציג כלב שנורה בידיו של חייל,low,low,low,moderate,low,low,dev,
+"Cristiano Ronaldo let Manchester United down, says Erik ten Hag",low,low,low,low,low,low,dev,https://bbc.co.uk/sport/football/articles/c8dx32rn297wo
+Pakistan vs England: Sloppy visitors floored by Arafat Minhas in Rawalpindi,low,low,low,low,low,low,dev,https://bbc.co.uk/sport/cricket/articles/c962ylv3l334o
+Zelensky says intelligence sharing on Russian strikes 'works now' and Ukraine 'thankful' to US,low,low,low,low,low,low,dev,https://bbc.co.uk/news/live/c6wy4r1pxvv4t
+Bristol | Latest News & Updates | BBC News,low,low,low,low,low,low,test,https://bbc.co.uk/news/england/bristol
+UWE Bristol student murdered housemate by stabbing him 30 times,low,low,low,high,low,low,test,https://bbc.co.uk/news/articles/ckq6n55l23rlo
+Two men re-arrested on suspicion of assisting Iran intelligence after RAF Fairford incident,low,low,low,low,low,low,dev,https://bbc.co.uk/news/articles/cqm26z110vzko
+Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia,low,low,low,low,low,low,dev,/news/articles/cq5ynkx3xy11o
+Ali G is back. But is the character past its sell-by date?,low,low,low,low,low,low,dev,/news/articles/ckge4vn2rnxgo
+'Burnham faces climate revolt' and 'Harry wants to fix feud',low,low,low,low,low,low,dev,/news/articles/c84g1qyvvkgvo
+I left state secrets on the train - I'm proof you can recover from the biggest mistake of your life,low,low,low,low,low,low,dev,/news/articles/cmwyz4g4ln4no
+Chris Mason: Jackdaw approved but tricky energy trade-offs remain,low,low,low,low,low,low,dev,/news/articles/cked35dz47y7o
+Man charged after three Jewish women assaulted,low,low,low,moderate,low,low,test,/news/articles/c60rl0vdr87eo
+"Russia frees US citizen Stephen Hubbard, state media reports",low,low,low,low,low,low,dev,/news/articles/c6m24l9v3745o
+Data-breach NHS worker told woman she had cancer,low,low,low,low,low,low,test,/news/articles/cjn5vq6n7r54o
+Lawyer caught offering to make illegal-worker fine go away,low,low,low,low,low,low,test,/news/articles/c30rln4pz58xo
+"Australian MP loses both legs after alleged car attack, husband says",low,low,low,moderate,low,low,dev,/news/articles/ckwyqdqxw6d0o
+"""גיליתי שהפירה המיתולוגי של רובושון הוא בלוף אחד גדול""",low,low,low,low,low,low,dev,https://www.ynet.co.il/food/article/yokra14918087
+מפריז ועד טיראנה: צעירי אירופה לא רואים עתיד כלכלי ומבעירים את הרחובות,low,low,low,low,low,low,test,https://www.ynet.co.il/economy/article/hy9ag872fx
+"החיבוק מטראמפ, הפגישה החשאית וסימן השאלה הגדול: מי מבטיח שהפעם המשטר ייפול?",moderate,low,low,low,low,low,dev,https://www.ynet.co.il/news/article/bjbyu0043fg
+"שר ההגנה האמריקני ביקר בחשאי בישראל ונפגש עם נתניהו, על הפרק: חידוש המלחמה באיראן",low,low,low,moderate,low,low,dev,https://www.ynet.co.il/news/article/hk5naze3fe
+"כוננות באיראן, שתקפה 2 מכליות: ""ארה""ב וישראל יחדשו את המלחמה, במוקדם או במאוחר""",low,low,low,high,low,low,dev,https://www.ynet.co.il/news/article/byfornn2gg
+"בקטאר דיווחו על הסכמות, איראן: ""אין לנו אמון בארה""ב""; הוויתורים שעשויה ישראל לעשות",low,low,low,low,low,low,dev,https://www.ynet.co.il/news/article/h1ihsjh2mg
+השירות המטאורולוגי: עדכון חשוב לימים הקרובים - סרוגים,low,low,low,low,low,low,dev,https://srugim.co.il/101014006-השירות-המטאורולוגי-עדכון-חשוב-לימים
+"שינוי קיצוני: עלייה בטמפ', שרב ואובך: תחזית מזג אוויר - סרוגים",low,low,low,low,low,low,dev,https://srugim.co.il/101014010-שינוי-קיצוני-עלייה-בטמפ-שרב-ואובך-תחזית
+ירון אברהם בתגובה ראשונה לדרמה המדינית - סרוגים,low,low,low,low,low,low,dev,https://srugim.co.il/101014013-ירון-אברהם-בתגובה-ראשונה-לדרמה-המדינית
+האירוע הבטחוני במרכז הארץ: ייתכן שיש מעורבים נוספים - סרוגים,low,low,low,low,low,low,test,https://srugim.co.il/101014011-האירוע-הבטחוני-במרכז-הארץ-ייתכן-שיש
+"סקר בציבור הסרוג: איזנקוט בחוץ, בנט מפתיע; ואיזה מקום וינטר? - סרוגים",low,low,low,low,low,low,dev,https://srugim.co.il/101014014-סקר-בציבור-הסרוג-איזנקוט-בחוץ-בנט-מפתיע
+"נתניהו חשף לרב אלי סדן ""תרחיש אימים"" - סרוגים",low,low,low,low,low,low,test,https://srugim.co.il/101014015-נתניהו-חשף-לרב-אלי-סדן-תרחיש-אימים
+וינטר מבהיר: הרב אלי סדן לא ייצא נגדנו - סרוגים,low,low,low,low,low,low,test,https://srugim.co.il/101014016-וינטר-מבהיר-הרב-אלי-סדן-לא-ייצא-נגדנו
+שר ההגנה האמריקני בהתייחסות ראשונה לביקורו הסודי בישראל - סרוגים,low,low,low,low,low,low,test,https://srugim.co.il/101014017-שר-ההגנה-האמריקני-בהתייחסות-ראשונה
+"בהר המור מגיבים לנתניהו: ""שיאכל את מה שהוא בישל"" - סרוגים",low,low,low,low,low,low,dev,https://srugim.co.il/101014018-בהר-המור-מגיבים-לנתניהו-שיאכל-את-מה-שהוא
+סקר מנדטים עדכני: כל סקרי בחירות 2026 וממוצע הסקרים - סרוגים,low,low,low,low,low,low,test,https://www.srugim.co.il/elections/elections2026
+"לוח חופשות משרד החינוך 2026–2027 תשפ""ז | mako",low,low,low,low,low,low,dev,https://www.mako.co.il/home-family-kids/Article-df5ebe37893f281026.htm
+"כניסת שבת, זמני יציאת שבת ומועדי הדלקת נרות | 23.10.2026",low,low,low,low,low,low,dev,https://www.mako.co.il/spirituality-popular_culture/Article-494842ff06e9431006.htm
+לוח שנה עברי לועזי - מעריב,low,low,low,low,low,low,dev,https://maariv.co.il/jewishism/hebrew-calendar
+זמני כניסת ויציאת שבת והדלקת נרות - פרשת לך־לך | 23.10.26,low,low,low,low,low,low,test,https://maariv.co.il/jewishism/shabat-times
+אין לזלזל בפרישת גנץ: גם אלפי קולות יכולים לשנות את ההיסטוריה,low,low,low,low,low,low,dev,https://haaretz.co.il/news/elections/2026-10-19/ty-article/.highlight/eca/000001a1-554b-d9ef-afab-fd4ff7a50000
+מנדלבליט בעדותו במשפט האלפים: נתניהו לא הוזהר בחקירתו שהוא חשוד בשוחד,low,low,low,low,low,low,dev,https://haaretz.co.il/news/law/netanyahutrial/2026-10-20/ty-article/000001a1-5803-d9b6-a9b1-78abb6270000
+שר ההגנה האמריקאי הגסת הגיע לביקור חשאי בישראל ונפגש עם נתניהו וכץ,low,low,low,low,low,low,dev,https://haaretz.co.il/news/politics/2026-10-20/ty-article/000001a1-5654-df3c-adbf-d6754ac40000
+"וינטר והנדל נכנסים לכנסת בסקר חדשות 13, ונותרים בחוץ ב־12",low,low,low,low,low,low,dev,https://haaretz.co.il/news/elections/2026-10-19/ty-article/.premium/000001a1-553d-d9ef-afab-fd7d3deb0000
+"סולימאן מסוודה, שהעיד בפרשת קטאר, גר שבועיים בבית הלוביסט פוטליק",low,low,low,low,low,low,dev,https://haaretz.co.il/news/law/2026-10-20/ty-article/.premium/eca/000001a1-5904-df3c-adbf-d975fd490000
+"נתניהו: איראן רוצה להשפיע על הבחירות ועשויה לתקוף, היא רוצה שאפסיד",low,low,low,low,low,low,dev,https://haaretz.co.il/news/politics/2026-10-20/ty-article/.premium/000001a1-599e-d9b6-a9b1-79be3e720000
+באיראן עוקבים בהנאה אחר מצבו של טראמפ בסקרים ונערכים לתוצאות הבחירות,low,low,low,low,low,low,dev,https://haaretz.co.il/news/world/america/2026-10-20/ty-article-magazine/.premium/000001a1-594b-d9b6-a9b1-79ebf34c0000
+למרות הסיכום: במפלגות החרדיות חוששים ממעצרי עריקים בבחירות,low,low,low,low,low,low,dev,https://c14.co.il/article/1746642
+"אמה של מועמדת בבחירות קוראת לא להצביע לה: ""הבת שלי שקרנית""",low,low,low,low,low,low,dev,https://c14.co.il/article/1746901
+"הנתון ההזוי שבו כוכב מכבי נתניה ""ניצח"" את כריסטיאנו רונאלדו",low,low,low,low,low,low,dev,https://c14.co.il/article/1746669
+"סגירת מעגל: חוסל מחבל שהשתתף בחטיפת שני לוק הי""ד",low,low,low,moderate,low,low,dev,https://c14.co.il/article/1746827
+חודש המודעות לסרטן השד: מתי כדאי להיבדק ומה חשוב לדעת?,moderate,low,low,low,low,low,dev,https://c14.co.il/article/1746645
+שלב אחרי שלב: כך קרס משפט נתניהו ביום דיונים אחד,low,low,low,low,low,low,dev,https://c14.co.il/article/1746649
+"העונש החמור שקיבל המאמן שהניף דגל אש""ף במונדיאל",low,low,low,low,low,low,dev,https://c14.co.il/article/1746800
+"""אלוהים שומר עליו"": סוכל פיגוע ענק נגד ליאו מסי במונדיאל",low,low,low,moderate,low,low,dev,
+"""אלוהים שומר עליו"": סוכל פיגוע ענק נגד ליאו מסי במונדיאל 10 תגובות 10 09.08.26 בר חסידים",low,low,low,moderate,low,low,dev,/article/1652886
+כובש שער הניצחון במונדיאל הביך את עצמו בשידור חי | צפו,low,low,low,low,low,low,dev,
+כובש שער הניצחון במונדיאל הביך את עצמו בשידור חי | צפו 7 תגובות 7 09.08.26 בר חסידים,low,low,low,low,low,low,dev,/article/1653954
+"""מסי, תשתלט עליו"": נחשף התיעוד ממצלמת השופט בגמר המונדיאל",moderate,low,low,low,low,low,test,
+"צפו בזווית המסקרנת ""מסי, תשתלט עליו"": נחשף התיעוד ממצלמת השופט בגמר המונדיאל 17.08.26 בר חסידים",moderate,low,low,low,low,low,dev,/article/1664533
+פליטת הפה שחשפה: גם אחמד טיבי צופה בערוץ 14,low,low,low,low,low,low,dev,https://c14.co.il/article/1746856
+האב השכול פורש מהמרוץ לכנסת - ומכריז על שינוי כיוון,low,low,low,low,low,low,dev,https://c14.co.il/article/1746866
+אחד נגד כולם: זה הקרב האמיתי בין פילבר לשאר הסוקרים,low,low,low,low,low,low,dev,https://c14.co.il/article/1745059
+Two re-arrested on suspicion of assisting Iran intelligence after RAF Fairford incident,low,low,low,low,low,low,dev,/news/articles/cqm26z110vzko
+Kim Jong Un: Why do rumours about his death keep coming back?,moderate,low,low,low,low,low,dev,https://bbc.co.uk/news/articles/cmvg6qv1jdydo
+"BBC Three, BBC Scotland and Radio 4 Extra channels to close",low,low,low,low,low,low,dev,https://bbc.co.uk/news/articles/cqx2v800nnr2o
+'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab,low,low,low,low,low,low,dev,/news/articles/c6ev30xwy8v2o
+Man charged with attack on Australian MP as suspect's father says she is family friend,low,low,low,moderate,low,low,dev,/news/articles/c678pnn9mpgno
+Woman describes alleged assault by Russell Brand as 'frenzied' and 'violent',low,low,low,high,low,low,test,/news/articles/ck240rr10jdqo
+"Failings allowed Covid 'to spread like wildfire' in care homes, inquiry finds",low,low,low,low,low,low,dev,https://bbc.co.uk/news/articles/ck1l38z0v3v6o
+Storm Austen to bring severe gales to UK as weather warning issued,low,low,low,low,low,low,dev,/weather/articles/c9rkyjzgp6kdo
+"Government failings allowed Covid 'to spread like wildfire' in care homes, inquiry finds",low,low,low,low,low,low,dev,/news/articles/ck1l38z0v3v6o
+UK to deploy jets to defend Saudi Arabia from Houthi attacks,low,low,low,moderate,low,low,dev,/news/articles/ckr5yqe1r1llo
+Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand,low,low,low,high,low,low,test,/news/articles/ck240rr10jdqo
+Google says services recovering after cloud outage hits UK banks and websites,low,low,low,low,low,low,dev,/news/articles/cxdd8mm6qy4mo
+Huge setback for Alberta's separatist movement after decisive defeat,low,low,low,low,low,low,test,/news/articles/cjly016320q1o
+"BBC Three, BBC Scotland and Radio 4 Extra broadcast channels to close",low,low,low,low,low,low,dev,/news/articles/cqx2v800nnr2o
+North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?,moderate,low,low,low,low,low,dev,/news/articles/cmvg6qv1jdydo
+Student who stabbed housemate 30 times admits murder,low,low,low,high,low,low,dev,/news/articles/ckq6n55l23rlo
+Harry says he wants to 'reconcile' with his family,low,low,low,low,low,low,test,/news/articles/cry4xj79zxd1o
+ynet - חדשות - 24/7 - כל החדשות,low,low,low,low,low,low,dev,https://www.ynet.co.il/news/247
+"ynet - בחירות 2026 ב-ynet: תוצאות, סקרי מנדטים וכל העדכונים החמים",low,low,low,low,low,low,test,https://www.ynet.co.il/news/elections2026
+חשיפה: אוריך הודה שהמשיך לעבוד עם הקטארים לפחות עד אמצע 2024,low,low,low,low,low,low,dev,https://www.mako.co.il/news-politics/2026_q4/Article-6585c215ab451a1027.htm
+אובדן שליטה בצרפת: עוצר הוטל בבירה פריז ובכמה ערים נוספות,low,low,low,low,low,low,dev,https://www.mako.co.il/news-world/2026_q4/Article-286195661b551a1027.htm
+תפנית במשפט הרצח בנחלאות: נבחן שחרורן של אגם צרפי ושילת חוטה,low,low,low,moderate,low,low,dev,https://www.mako.co.il/news-law/2026_q4/Article-f83bff0b5d551a1027.htm
+8 ימים לבחירות: המיזמים שדואגים שכמה שיותר אנשים יצביעו,low,low,low,low,low,low,test,https://www.mako.co.il/news-israel-elections/2026/Article-e640912c4a351a1026.htm
+גם אחרי טבח 7/10: אוריך הודה שהמשיך לעבוד עבור קטאר ב-2024 | דיווח,low,low,low,moderate,low,low,dev,https://www.ynet.co.il/news/article/b1fjmrm2fe
+רוב החשודים בתקיפת הצלמת והדיפלומטים יישארו במעצר,low,low,low,moderate,low,low,dev,https://www.ynet.co.il/news/article/skcomrm2gx#autoplay
+"קרבאלי הציל מהקו בדקה ה-89, בית""ר ומכבי ת""א נפרדו ב-0:0",low,low,low,low,low,low,dev,https://www.c14.co.il/article/1745388
+"גנץ הרים דגל לבן, נתניהו זכה בקלף נחשק - וההבטחה לבן גביר",low,low,low,low,low,low,dev,https://www.c14.co.il/article/1745363
+"ירון זליכה - לוחם במונופולים, או יועץ נגד תחרות?",low,low,low,low,low,low,test,https://www.c14.co.il/article/1743225
+עכשיו הכול ברור: זו הסיבה שבני גנץ פרש דווקא עכשיו,high,low,low,low,low,low,dev,https://www.maariv.co.il/news/politics/article-1378980
+"השר לשעבר במתקפה על נתניהו: ""שמאלן, חוזה מדינת פלסטין"" - סרוגים",low,low,low,moderate,low,low,dev,https://www.srugim.co.il/101013912-השר-לשעבר-במתקפה-על-נתניהו-שמאלן-חוזה
+יאיר לפיד בתגובה מכוערת לפרישה של גנץ - סרוגים,low,low,low,low,low,low,dev,https://www.srugim.co.il/101013887-יאיר-לפיד-בתגובה-מכוערת-לפרישה-של-גנץ
+"""פסגת הבריונים"" שמציע פוטין, והתיעוד המדהים: חייל פצוע חולץ משדה הקרב עם רחפן ענק",low,low,low,low,low,low,dev,https://www.ynet.co.il/news/article/b1t0q9q3ze#autoplay
+מרגש: אחרי שלקה באירוע מוחי - יונתן רזאל מנגן בחתונת בתו. צפו - סרוגים,low,low,low,low,low,low,dev,https://www.srugim.co.il/101013294-מרגש-אחרי-שלקה-באירוע-מוחי-יונתן-רזאל
+"""אסור להתחתן עם מי שהתגייר בארגון צהר"" - סרוגים",low,low,low,low,low,low,dev,https://www.srugim.co.il/246519-אסור-להתחתן-עם-מי-שהתגייר-בארגון-צהר
+בין קטאר לטורקיה: הפרשות שהפוליטיקאים ערבבו,high,low,low,low,low,low,dev,
