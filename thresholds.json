@@ -1,0 +1,53 @@
+{
+  "source": "api/lib/score.py @ fudfomo (private), pulled 2026-11-27; calibration fitted 2026-10-25 on ~3400 headlines (Hebrew + English)",
+  "rulers_p5_p95_cosine": {
+    "clickbait": [
+      0.851,
+      0.859
+    ],
+    "fud": [
+      0.825,
+      0.834
+    ],
+    "fomo": [
+      0.831,
+      0.846
+    ],
+    "violence": [
+      0.84,
+      0.87
+    ],
+    "attack": [
+      0.85,
+      0.88
+    ],
+    "profanity": [
+      0.84,
+      0.87
+    ],
+    "fear": [
+      0.84,
+      0.87
+    ]
+  },
+  "match_thresholds_signal_p95": {
+    "clickbait": 0.855,
+    "fud": 0.842,
+    "fomo": 0.849,
+    "violence": 0.87,
+    "attack": 0.88,
+    "profanity": 0.87,
+    "fear": 0.87
+  },
+  "evidence_margin": 0.005,
+  "label_cuts_low_moderate_high": [
+    33.0,
+    66.0
+  ],
+  "notes": [
+    "A factor scores a hard 0 when its best seed match stays below its match threshold - background similarity is never a finding.",
+    "paper.md v0.2 reliability note: the int8 model is NOT bit-reproducible across CPUs; a small number of borderline decisions are machine-dependent coin flips. The evidence margin no longer fully guards this.",
+    "The headline number is the MAX of the factors; the pressure family (clickbait/fud/fomo) and the content family (violence/attack/profanity) are never averaged together.",
+    "Word-boundary seed matching since Nov 2026: Latin seeds match on word boundaries; Hebrew seeds allow one leading prefix letter but must end on a word boundary."
+  ]
+}
