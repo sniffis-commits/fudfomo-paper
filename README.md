@@ -7,7 +7,7 @@ that produced them.
 
 ## What's here
 
-- **paper.md** — the working paper (v0.2): the construct (the psychological
+- **paper.md** — the working paper (v0.3): the construct (the psychological
   pressure load of headline language, explicitly *not* manipulation-intent
   detection), the system, the evaluation protocol, and the honest status of
   every number.
@@ -21,7 +21,7 @@ that produced them.
   margin and label cuts, with provenance notes.
 - **trained_rulers.json** — the fitted rulers.
 - **headlines_he.csv / headlines_en.csv** — the labelled Hebrew and English
-  headline sets (development sets — see paper §8).
+  headline sets (development sets — see paper §9).
 - **attack_probes.csv, lookalike_probes.csv, profanity_probes.csv,
   scan_filter_probes.csv, violence_probes.csv, background_he.txt** — the
   factor probe corpora.
@@ -32,7 +32,7 @@ that produced them.
 ## Status of the numbers
 
 Every accuracy figure here is a **development-set** figure. The held-out
-test set does not exist yet (paper §8). The int8 model is not
+test set does not exist yet (paper §9). The int8 model is not
 bit-reproducible across CPUs, so a small number of borderline decisions are
 machine-dependent.
 
