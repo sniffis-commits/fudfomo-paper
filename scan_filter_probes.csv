@@ -1,0 +1,26 @@
+url,headline,body_len,link_density,has_byline,has_related,expected_category,expected_scan
+"https://www.ynet.co.il/news/article/b1t0q9q3ze","פסגת הבריונים שמציע פוטין, והתיעוד המדהים",9000,0.1,1,1,news,yes
+"https://www.maariv.co.il/news/politics/article-1378980","עכשיו הכול ברור: זו הסיבה שבני גנץ פרש דווקא עכשיו",1200,0.1,1,0,news,yes
+"https://www.srugim.co.il/101013294-מרגש-אחרי-שלקה","מרגש: אחרי שלקה באירוע מוחי",800,0.15,1,0,news,yes
+"https://www.ynet.co.il/tech/review/laptop-2026","מחשב נייד הטוב ביותר ל-2026",3000,0.1,1,0,reviews,no
+"https://www.gamespot.com/reviews/best-games-2026","המשחקים הטובים ביותר של 2026",4000,0.1,1,0,reviews,no
+"https://techradar.com/best-laptop-deals","המחשבים הניידים הכי זולים עכשיו",2500,0.2,1,0,deals,no
+"https://www.cookingweekly.com/recipe/chicken","מתכון לעוף קרוב מושלם",1800,0.1,1,0,recipes,no
+"https://www.ynet.co.il/food/recipe/holiday","מתכון לארוחת חג",1500,0.1,1,0,recipes,no
+"https://blog.example.com/why-i-left-the-company","למה עזבתי את החברה שלי",900,0.2,0,0,blogs,no
+"https://www.ynet.co.il/tag/מלחמה","כל הכתבות בנושא מלחמה",400,0.7,0,0,other,no
+"https://www.ynet.co.il/author/יונה","כתבות מאת יונה",300,0.8,0,0,other,no
+"https://www.ynet.co.il/news/page/2","עמוד 2",200,0.9,0,0,other,no
+"https://www.ynet.co.il/news/article/xyz?amp","כותרת כלשהו",600,0.2,1,0,other,no
+"https://www.ynet.co.il/subscribe","הרשמה לניוזלטר",200,0.6,0,0,other,no
+"https://www.ynet.co.il/gaming/pc-news","חדשות משחקים",700,0.3,1,0,gaming,no
+"https://forum.example.com/thread/12345","דיון: מה אתם חושבים",500,0.4,0,0,forum,no
+"https://blog.example.com/5-tips-that-change-your-life","5 טיפים שישנו לך את החיים",900,0.2,0,0,blogs,no
+"https://www.example.com/guide/how-to-choose-a-laptop","מדריך לבחירת מחשב נייד",1100,0.2,1,0,howto,no
+"https://news.example.com/2026/10/19/politics/story","השר הודיע על החלטה חדשה",2000,0.1,1,1,news,yes
+"https://news.example.com/2026/10/19/tech/ai-chip","חברה חדשה בתחום השבבים",1900,0.1,1,1,tech_news,yes
+"https://news.example.com/roundup/this-week","הכל מה שכתבנו השבוע",900,0.85,0,0,other,no
+"https://opinion.example.com/column/gaza-wars","מלחמה שאינה נמשכת",1500,0.1,1,0,opinion,yes
+"https://news.example.com/deals/laptop","מחשב במחיר מוזל",800,0.3,1,0,deals,no
+"https://news.example.com/2026/10/19/politics/short","הודעה קצרה",90,0.1,0,0,other,no
+"https://news.example.com/2026/10/19/politics/with-byline-short","הודעה קצרה עם תאריך",150,0.1,1,0,news,yes
