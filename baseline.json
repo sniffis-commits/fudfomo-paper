@@ -1,0 +1,28 @@
+{
+  "measured": {
+    "clickbait": {
+      "correct": 50,
+      "total": 50
+    },
+    "fud": {
+      "correct": 50,
+      "total": 50
+    },
+    "fomo": {
+      "correct": 49,
+      "total": 50
+    },
+    "violence": {
+      "correct": 50,
+      "total": 50
+    },
+    "attack": {
+      "correct": 50,
+      "total": 50
+    },
+    "profanity": {
+      "correct": 50,
+      "total": 50
+    }
+  }
+}
