@@ -1,9 +1,9 @@
 # Media manipulation pressure: a transparent, reproducible meter for headline language
 
-**Working draft — version 0.2, 18 November 2026.**
+**Working draft — version 0.3, 27 November 2026.** (0.3 adds the Introduction; the numbers are unchanged from 0.2, 18 November 2026.)
 **Status of the numbers: every accuracy figure in this document comes from a
 DEVELOPMENT set. None of them is a measurement of quality. The held-out set
-does not exist yet (§8).** The document is written to be extended, not to be
+does not exist yet (§9).** The document is written to be extended, not to be
 believed: each claim below points at the command that produces it.
 
 ---
@@ -32,7 +32,15 @@ analysis that we did not expect to need: the int8 model is not
 bit-reproducible across CPUs, so a small number of decisions are coin flips
 whose outcome depends on the machine that serves the request.
 
-## 2. The question, and what the tool is not
+## 2. Introduction
+
+A reader meets the headline before the story, and for most stories the headline is all they ever read. Publishers know it, and headline language has adapted to it: the payload withheld behind a vague noun, the urgency that expires at midnight, the threat that turns out to be routine. The cost is paid quietly, in the reader's stress load, one headline at a time.
+
+fudfomo is our attempt to make that cost visible. It is a free public tool, live at https://fudfomo.cia.org.il/: paste a headline or a link, in Hebrew or in English, and it returns six scores from 0 to 100 (clickbait, FUD, FOMO, violence, personal attack, profanity) with the exact phrases that produced each score. No matched phrase, no score: the tool will not convict on a vibe. The wider goal is a movement, publishers being careful about the reader's mental health, and a movement needs a meter that nobody can wave away.
+
+This paper is the method behind the tool. It defines the construct, the psychological pressure load of headline language, and marks how it differs from manipulation-intent detection (§3). It describes the six factors and the two families they fall into (§4), the system from seed lists to calibrated rulers (§5), and the data behind it (§6). It states the evaluation protocol (§7) and reports the results as they honestly stand: a development set, not a held-out test (§8). It then turns on itself and lists the threats to validity (§9), including one we did not expect: the int8 model at the core is not bit-reproducible across CPUs, so a small number of borderline decisions depend on the machine that serves the request.
+
+## 3. The question, and what the tool is not
 
 The movement we are trying to start has a simple goal: **publishers being
 careful about the reader's mental health** — not "the media lying", not a
@@ -52,11 +60,11 @@ factors are an operationalisation of a specific vocabulary (manipulation
 framing, fear/uncertainty, urgency/scarcity, violence, personal attacks,
 profanity), not a claim about the full space of persuasive techniques. A
 headline can manipulate in ways none of the six catch; the corrections log
-(§11) is where that becomes visible, in public.
+(§12) is where that becomes visible, in public.
 
-## 3. What is measured
+## 4. What is measured
 
-### 3.1 The six factors, in two families
+### 4.1 The six factors, in two families
 
 | factor | what it captures | how |
 |---|---|---|
@@ -86,7 +94,7 @@ the violence/FUD families after live headlines scored 0 despite clear
 evidence words) — each addition preserves the disjoint rule that a seed
 belongs to exactly one factor.
 
-### 3.2 The evidence rule
+### 4.2 The evidence rule
 
 A semantic factor with **no matched seed** scores **0**, not the ~40 that the
 embedding's background similarity would produce (E5 gives roughly 0.84
@@ -105,7 +113,7 @@ Two floors sit above the continuous score:
   verdict is a floor, not a bonus: a toxic headline fails on its own, and
   the body can add evidence but never dilute it.
 
-### 3.3 Empty titles
+### 4.3 Empty titles
 
 A scan whose headline or title comes back empty is treated as an error, not
 as a zero-scored article. Every empty title is written to the `error_log`
@@ -122,7 +130,7 @@ table for empty headlines and writes them to `error_log` (with an optional
 got a badge is visible to the operator, with a reason, instead of silently
 showing as 0/0/0/0/0/0 on the site.
 
-### 3.4 The rulers and the thresholds
+### 4.4 The rulers and the thresholds
 
 Each factor has its own calibration range (a low/high cosine pair) mapping
 the embedding distance onto 0–100, and its own match threshold below which
@@ -130,7 +138,7 @@ a seed does not count as evidence. The rulers are fitted on the development
 set and versioned with the code. They are *not* gold tertiles: Low < 33,
 Moderate < 66, High above.
 
-## 4. The system
+## 5. The system
 
 ```
 URL ──► SSRF guard ──► fetch (once) ──► article isolation ──► six factors
@@ -154,7 +162,7 @@ URL ──► SSRF guard ──► fetch (once) ──► article isolation ─�
   model (multilingual-E5-small, int8 ONNX; Wang et al., 2022). The model
   returns a proximity; the decision is a published formula over that
   proximity. Every score resolves to a phrase in the headline plus a public
-  ruler. No component creates a signal on its own (§7.3).
+  ruler. No component creates a signal on its own (§8.3).
 - **The configuration is data.** The word lists, the exclusions, the ramps
   and the clickbait rule lists are editable in the admin; every value has a
   hardcoded fallback in the library, and a broken value is ignored rather
@@ -167,9 +175,9 @@ URL ──► SSRF guard ──► fetch (once) ──► article isolation ─�
   ships disabled. It is retained for the evidence panel and as the encoder
   for a future head.
 
-## 5. The data
+## 6. The data
 
-### 5.1 The corpus
+### 6.1 The corpus
 
 Two sources, both automatic:
 
@@ -184,14 +192,14 @@ headline observations, 21 outlets. The feed list holds 37 sites (the Israeli
 Hebrew press, the international English press, and a few tabloids — the
 point of the sample is to see the pressure *differ* between outlets, so a
 corpus of only serious papers would measure nothing). These numbers have
-grown since the feeder runs continuously; the table in §5.2 is the sample
+grown since the feeder runs continuously; the table in §6.2 is the sample
 at 22 October 2026 and is not updated live.
 
 Roughly half the international sites refuse a plain fetch (HTTP 403/401/402 —
 bot walls). This is a property of the web, not of the instrument, and it
 biases the corpus towards outlets that allow automated reading.
 
-### 5.2 The corpus at a glance
+### 6.2 The corpus at a glance
 
 The table below is the sample at the time of writing (22 October 2026). The
 **pressure** is the average of clickbait, FUD and FOMO; the **content** is
@@ -230,7 +238,7 @@ manipulation pressure.** Whether that is a property of the corpus or of the
 sampling is an open question, and it is the question the held-out sample
 and a weighted corpus would answer.
 
-### 5.3 The labelling
+### 6.3 The labelling
 
 The labels are produced in the admin's labelling queue: the observer picks
 one of the six bands per factor for a real headline, with a note. The
@@ -246,15 +254,15 @@ One label was changed with written reasoning: a headline about a dog that
 was shot moved from violence-low to violence-moderate, because the factor
 measures the violent *content*, not the victim.
 
-### 5.4 The split
+### 6.4 The split
 
 The evaluation set carries a `split` column, assigned by a hash of the
 headline text so that a row cannot leak between the two. **At the time of
 writing all 50 rows are `dev`**: the held-out split has not been frozen, and
 `tools/freeze_test_split.py --check` therefore has nothing to verify. Until
-the split is frozen and scored once, every number in §7 is a repair log.
+the split is frozen and scored once, every number in §8 is a repair log.
 
-## 6. The evaluation protocol
+## 7. The evaluation protocol
 
 - **Metric**: exact match per factor — the predicted band equals the
   labelled band.
@@ -271,9 +279,9 @@ the split is frozen and scored once, every number in §7 is a repair log.
 - **A false-alarm ablation** of the clickbait layer: the rules alone, the
   embedding alone, and the full pipeline.
 
-## 7. Results, as they stand
+## 8. Results, as they stand
 
-### 7.1 The development set (not a test set)
+### 8.1 The development set (not a test set)
 
 | factor | exact match | the delta check |
 |---|---|---|
@@ -289,7 +297,7 @@ seed lists were tuned on these rows. The one FOMO miss is a label-vs-floor
 disagreement: the headline contains a literal urgency seed, and the floor
 makes it High while the human labelled it Moderate.
 
-### 7.2 The clickbait ablation
+### 8.2 The clickbait ablation
 
 | configuration | catches | false alarms |
 |---|---|---|
@@ -302,7 +310,7 @@ ablation *does* show, and what survives the tuning, is the ordering: the
 rules are precise but incomplete, the embedding is sensitive but noisy, and
 the evidence rule is what makes them combine.
 
-### 7.3 Reliability: the measurement has a noise floor
+### 8.3 Reliability: the measurement has a noise floor
 
 An unplanned result of running the CI on a different machine.
 
@@ -350,7 +358,7 @@ This is the sort of finding that a held-out set does not reveal, and a
 single-machine evaluation hides. It is reported here because a published
 metric that cannot survive a different CPU is not a measurement.
 
-### 7.4 The false-alarm classes that were found and fixed
+### 8.4 The false-alarm classes that were found and fixed
 
 - **The stem trap.** A root's plural form is a plural marker, never a word
   on its own: otherwise "מזון" (food) became "זונ" and reached the attack
@@ -368,9 +376,9 @@ metric that cannot survive a different CPU is not a measurement.
   background similarity, nothing else. The rule removed them and the
   clickbait accuracy went 26/30 → 50/50.
 
-## 8. Threats to validity
+## 9. Threats to validity
 
-- **The evaluation set is the development set.** Every number in §7.1 was
+- **The evaluation set is the development set.** Every number in §8.1 was
   measured on the rows the rulers and floors were fitted on. The held-out
   set does not exist. This is the dominant threat and it is not mitigated
   by anything in this document.
@@ -378,7 +386,7 @@ metric that cannot survive a different CPU is not a measurement.
   agreement statistic yet. The labelling guide (docs/labeling.md) fixes the
   rules, but "the same person, later" is not inter-rater reliability.
 - **The corpus is biased towards outlets that allow automated reading**
-  (§5.1) and towards English and Hebrew in roughly equal parts, which is
+  (§6.1) and towards English and Hebrew in roughly equal parts, which is
   not the audience's language mix.
 - **The factors are an operationalisation, not a construct.** "Pressure" is
   defined by the six measurements; a reader may experience pressure from
@@ -387,13 +395,13 @@ metric that cannot survive a different CPU is not a measurement.
   constants, not the tertiles of a population; with a held-out set they
   should be fitted.
 - **One machine scores the site.** A reader's number is the number of the
-  server they hit, not a number with an uncertainty interval. §7.3 bounds
+  server they hit, not a number with an uncertainty interval. §8.3 bounds
   the variation but does not remove it.
 - **The model is a background-similarity machine.** The evidence rule is a
   guard against its most common failure; it is not a claim that the
   embedding is unbiased.
 
-## 9. Ethics and governance
+## 10. Ethics and governance
 
 - **The meter measures language, not intent** — stated on every page that
   shows a score.
@@ -411,7 +419,7 @@ metric that cannot survive a different CPU is not a measurement.
   and the corrections are all public, and the data is reproducible by hand.
   A measurement nobody can check is a marketing claim.
 
-## 10. Reproduction
+## 11. Reproduction
 
 ```bash
 pip install -r requirements.txt
@@ -446,7 +454,7 @@ config (`config/flexible_score.json`). See `docs/flexible-score.md`.
 The model (113 MB) is a derived artifact and is not in the repository: the
 Docker build and the CI fetch it from the upstream release.
 
-## 11. What is next, in order
+## 12. What is next, in order
 
 1. **G1 — the answer key (label approval).** A human approves the 93 drafted
    labels in the admin queue (`?p=admin-label`), then labelling continues to
@@ -482,7 +490,7 @@ Docker build and the CI fetch it from the upstream release.
 5. **G5 — the rulers.** Fitted on a background corpus per language, so the
    thresholds describe the population rather than 50 rows.
 
-## 12. The artefacts
+## 13. The artefacts
 
 Everything in this document is backed by something you can run:
 
@@ -503,9 +511,9 @@ Everything in this document is backed by something you can run:
 | the CLI scanners / tests | `cli/scan.py`, `cli/test_g3.py`, `cli/test_g3_progressive.py`, `cli/test_g6.py`, `cli/test_dicta.py`, `tests/test_multi_worker.py` |
 | re-eval and empty-title audit | `tools/reeval_all.py`, `tools/fix_empty_titles.py` |
 | the corpus (the scans, the observations, the labels) | `api/data/fudfomo.db` (the service owns it; the schema is in `api/service/db.py`) |
-| the write-up's own numbers | every figure above points at a command in §10 |
+| the write-up's own numbers | every figure above points at a command in §11 |
 
-## 13. References
+## 14. References
 
 - Wang, L., et al. (2022). *Multilingual E5 Text Embeddings.* ACL 2022. — the
   sentence model (int8 ONNX) used as the proximity meter.
