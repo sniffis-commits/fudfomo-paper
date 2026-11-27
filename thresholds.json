@@ -46,7 +46,7 @@
   ],
   "notes": [
     "A factor scores a hard 0 when its best seed match stays below its match threshold - background similarity is never a finding.",
-    "paper.md v0.2 reliability note: the int8 model is NOT bit-reproducible across CPUs; a small number of borderline decisions are machine-dependent coin flips. The evidence margin no longer fully guards this.",
+    "paper.md v0.3 reliability note: the int8 model is NOT bit-reproducible across CPUs; a small number of borderline decisions are machine-dependent coin flips. The evidence margin no longer fully guards this.",
     "The headline number is the MAX of the factors; the pressure family (clickbait/fud/fomo) and the content family (violence/attack/profanity) are never averaged together.",
     "Word-boundary seed matching since Nov 2026: Latin seeds match on word boundaries; Hebrew seeds allow one leading prefix letter but must end on a word boundary."
   ]
